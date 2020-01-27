@@ -17,6 +17,15 @@ public class Picture
     private Circle sun;
     private boolean drawn;
 
+    
+    
+    private Circle planet01;
+    private Circle planet02;
+    private Circle planet03;
+    private Circle planet04;
+    private Circle planet05;
+    
+    
     /**
      * Constructor for objects of class Picture
      */
@@ -27,6 +36,15 @@ public class Picture
         roof = new Triangle();  
         sun = new Circle();
         drawn = false;
+        
+        
+        planet01 = new Circle();
+        planet02 = new Circle();
+        planet03 = new Circle();
+        planet04 = new Circle();
+        planet05 = new Circle();
+        
+        
     }
 
     /**
@@ -60,7 +78,40 @@ public class Picture
             sun.makeVisible();
             */
             
+            /**
+             *  CHANGE COLOR
+             */
+            planet01.changeColor("red");
             
+            
+            
+            /**
+             * CHANGE SIZE
+             */
+            
+            planet01.changeSize(10);
+            
+            
+            
+            /**
+             * Move IT
+             */
+            planet01.moveHorizontal(50);
+            planet01.moveVertical(50);
+           
+            /**
+             * ORDER OF VISUALS
+             */
+           
+            planet01.makeVisible();
+            planet02.makeVisible();
+            planet03.makeVisible();
+            planet04.makeVisible();
+            planet05.makeVisible();
+           
+            /**
+             *  DRAW BOOLEAN
+             */
             drawn = true;
         }
     }
