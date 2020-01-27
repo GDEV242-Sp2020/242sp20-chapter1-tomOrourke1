@@ -144,19 +144,19 @@ public class Canvas
             graphic.setColor(Color.white);
         }
         else if(colorString.equals("orange01")) {
-            graphic.setColor(new Color(180,100,10));
+            graphic.setColor(new Color(191,57,8));
         }
         else if(colorString.equals("orange02")) {
-            graphic.setColor(new Color(180,100,10));
+            graphic.setColor(new Color(128,38,5));
         }
         else if(colorString.equals("orange03")) {
-            graphic.setColor(new Color(180,100,10));
+            graphic.setColor(new Color(255,78,11));
         }
         else if(colorString.equals("orange04")) {
-            graphic.setColor(new Color(180,100,10));
+            graphic.setColor(new Color(64,19,3));
         }
         else if(colorString.equals("orange05")) {
-            graphic.setColor(new Color(180,100,10));
+            graphic.setColor(new Color(230,68,9));
         }
         else {
             graphic.setColor(new Color(180,100,10));

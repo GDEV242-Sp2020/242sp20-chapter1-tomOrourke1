@@ -93,38 +93,38 @@ public class Picture
              */
             
             planet01.changeSize(10);
-            planet02.changeSize(15);
-            planet03.changeSize(20);
-            planet04.changeSize(25);
-            planet05.changeSize(30);
+            planet02.changeSize(20);
+            planet03.changeSize(30);
+            planet04.changeSize(40);
+            planet05.changeSize(50);
             
             
             /**
              * Move IT
              */
-            planet01.moveHorizontal(1);
-            planet01.moveVertical(1);
+            planet01.moveHorizontal(4);
+            planet01.moveVertical(4);
             
             planet02.moveHorizontal(3);
             planet02.moveVertical(3);
             
-            planet03.moveHorizontal(5);
-            planet03.moveVertical(5);
+            planet03.moveHorizontal(2);
+            planet03.moveVertical(2);
             
-            planet04.moveHorizontal(7);
-            planet04.moveVertical(7);
+            planet04.moveHorizontal(1);
+            planet04.moveVertical(1);
             
-            planet05.moveHorizontal(9);
-            planet05.moveVertical(9);
+            planet05.moveHorizontal(0);   
+            planet05.moveVertical(0);   
             /**
              * ORDER OF VISUALS
              */
            
-            planet01.makeVisible();
-            planet02.makeVisible();
-            planet03.makeVisible();
-            planet04.makeVisible();
             planet05.makeVisible();
+            planet04.makeVisible();
+            planet03.makeVisible();
+            planet02.makeVisible();
+            planet01.makeVisible();
            
             /**
              *  DRAW BOOLEAN
