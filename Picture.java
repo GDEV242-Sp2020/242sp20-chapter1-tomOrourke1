@@ -18,12 +18,21 @@ public class Picture
     private boolean drawn;
 
     
+    private Square backG;
     
     private Circle planet01;
     private Circle planet02;
     private Circle planet03;
     private Circle planet04;
     private Circle planet05;
+    private Circle planet06;
+    private Circle planet07;
+    private Circle planet08;
+    private Circle planet09;
+    private Circle planet10;
+    
+    
+    
     
     
     /**
@@ -37,6 +46,7 @@ public class Picture
         sun = new Circle();
         drawn = false;
         
+        backG = new Square();
         
         planet01 = new Circle();
         planet02 = new Circle();
@@ -44,6 +54,11 @@ public class Picture
         planet04 = new Circle();
         planet05 = new Circle();
         
+        planet06 = new Circle();
+        planet07 = new Circle();
+        planet08 = new Circle();
+        planet09 = new Circle();
+        planet10 = new Circle();
         
     }
 
@@ -81,16 +96,25 @@ public class Picture
             /**
              *  CHANGE COLOR
              */
+            backG.changeColor("space");
+            
             planet01.changeColor("orange01");
             planet02.changeColor("orange02");
             planet03.changeColor("orange03");
             planet04.changeColor("orange04");
             planet05.changeColor("orange05");
             
+            planet06.changeColor("orange01");
+            planet07.changeColor("orange02");
+            planet08.changeColor("orange03");
+            planet09.changeColor("orange04");
+            planet10.changeColor("orange05");
+            
             
             /**
              * CHANGE SIZE
              */
+            backG.changeSize(500);
             
             planet01.changeSize(10);
             planet02.changeSize(20);
@@ -98,28 +122,60 @@ public class Picture
             planet04.changeSize(40);
             planet05.changeSize(50);
             
+            planet06.changeSize(60);
+            planet07.changeSize(70);
+            planet08.changeSize(80);
+            planet09.changeSize(90);
+            planet10.changeSize(100);
             
             /**
              * Move IT
              */
-            planet01.moveHorizontal(4);
-            planet01.moveVertical(4);
+            backG.moveHorizontal(-310);
+            backG.moveVertical(-190);
             
-            planet02.moveHorizontal(3);
-            planet02.moveVertical(3);
+            planet01.moveHorizontal(9);
+            planet01.moveVertical(9);
             
-            planet03.moveHorizontal(2);
-            planet03.moveVertical(2);
+            planet02.moveHorizontal(8);
+            planet02.moveVertical(8);
             
-            planet04.moveHorizontal(1);
-            planet04.moveVertical(1);
+            planet03.moveHorizontal(7);
+            planet03.moveVertical(7);
             
-            planet05.moveHorizontal(0);   
-            planet05.moveVertical(0);   
+            planet04.moveHorizontal(6);
+            planet04.moveVertical(6);
+            
+            planet05.moveHorizontal(5);   
+            planet05.moveVertical(5);   
+            
+            planet06.moveHorizontal(4);   
+            planet06.moveVertical(4);   
+            
+            planet07.moveHorizontal(3);   
+            planet07.moveVertical(3);   
+            
+            
+            planet08.moveHorizontal(2);   
+            planet08.moveVertical(2);   
+            
+            planet09.moveHorizontal(1);   
+            planet09.moveVertical(1);   
+            
+            planet10.moveHorizontal(0);   
+            planet10.moveVertical(0);   
+            
             /**
              * ORDER OF VISUALS
              */
-           
+            
+            backG.makeVisible();
+            
+            planet10.makeVisible();
+            planet09.makeVisible();
+            planet08.makeVisible();
+            planet07.makeVisible();
+            planet06.makeVisible();
             planet05.makeVisible();
             planet04.makeVisible();
             planet03.makeVisible();

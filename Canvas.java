@@ -158,8 +158,11 @@ public class Canvas
         else if(colorString.equals("orange05")) {
             graphic.setColor(new Color(230,68,9));
         }
+        else if(colorString.equals("space")){
+            graphic.setColor(new Color(10,50,120));
+        }
         else {
-            graphic.setColor(new Color(180,100,10));
+            graphic.setColor(new Color(100,50,10));
         }
     }
 
