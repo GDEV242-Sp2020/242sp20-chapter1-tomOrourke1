@@ -104,11 +104,11 @@ public class Picture
             planet04.changeColor("orange04");
             planet05.changeColor("orange05");
             
-            planet06.changeColor("orange01");
-            planet07.changeColor("orange02");
-            planet08.changeColor("orange03");
-            planet09.changeColor("orange04");
-            planet10.changeColor("orange05");
+            planet06.changeColor("orange06");
+            planet07.changeColor("orange07");
+            planet08.changeColor("orange08");
+            planet09.changeColor("orange09");
+            planet10.changeColor("orange10");
             
             
             /**
@@ -134,20 +134,20 @@ public class Picture
             backG.moveHorizontal(-310);
             backG.moveVertical(-190);
             
-            planet01.moveHorizontal(14);
-            planet01.moveVertical(14);
+            planet01.moveHorizontal(15);
+            planet01.moveVertical(15);
             
-            planet02.moveHorizontal(10);
-            planet02.moveVertical(10);
+            planet02.moveHorizontal(12);
+            planet02.moveVertical(12);
             
-            planet03.moveHorizontal(9);
-            planet03.moveVertical(9);
+            planet03.moveHorizontal(10);
+            planet03.moveVertical(10);
             
-            planet04.moveHorizontal(8);
-            planet04.moveVertical(8);
+            planet04.moveHorizontal(9);
+            planet04.moveVertical(9);
             
-            planet05.moveHorizontal(6);   
-            planet05.moveVertical(6);   
+            planet05.moveHorizontal(7);   
+            planet05.moveVertical(7);   
             
             planet06.moveHorizontal(5);   
             planet06.moveVertical(5);   

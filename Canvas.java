@@ -144,19 +144,34 @@ public class Canvas
             graphic.setColor(Color.white);
         }
         else if(colorString.equals("orange01")) {
-            graphic.setColor(new Color(191,57,8));
-        }
-        else if(colorString.equals("orange02")) {
-            graphic.setColor(new Color(128,38,5));
-        }
-        else if(colorString.equals("orange03")) {
             graphic.setColor(new Color(255,78,11));
         }
+        else if(colorString.equals("orange02")) {
+            graphic.setColor(new Color(243,73,20));
+        }
+        else if(colorString.equals("orange03")) {
+            graphic.setColor(new Color(230,68,9));
+        }
         else if(colorString.equals("orange04")) {
-            graphic.setColor(new Color(64,19,3));
+            graphic.setColor(new Color(211,63,9));
         }
         else if(colorString.equals("orange05")) {
-            graphic.setColor(new Color(230,68,9));
+            graphic.setColor(new Color(191,57,8));
+        }
+        else if(colorString.equals("orange06")) {
+            graphic.setColor(new Color(160,48,7));
+        }
+        else if(colorString.equals("orange07")) {
+            graphic.setColor(new Color(128,38,5));
+        }
+        else if(colorString.equals("orange08")) {
+            graphic.setColor(new Color(107,32,5));
+        }
+        else if(colorString.equals("orange09")) {
+            graphic.setColor(new Color(86,26,4));
+        }
+        else if(colorString.equals("orange10")) {
+            graphic.setColor(new Color(64,19,3));
         }
         else if(colorString.equals("space")){
             graphic.setColor(new Color(7,13,90));
