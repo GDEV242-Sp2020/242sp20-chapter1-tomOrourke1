@@ -134,26 +134,26 @@ public class Picture
             backG.moveHorizontal(-310);
             backG.moveVertical(-190);
             
-            planet01.moveHorizontal(9);
-            planet01.moveVertical(9);
+            planet01.moveHorizontal(14);
+            planet01.moveVertical(14);
             
-            planet02.moveHorizontal(8);
-            planet02.moveVertical(8);
+            planet02.moveHorizontal(10);
+            planet02.moveVertical(10);
             
-            planet03.moveHorizontal(7);
-            planet03.moveVertical(7);
+            planet03.moveHorizontal(9);
+            planet03.moveVertical(9);
             
-            planet04.moveHorizontal(6);
-            planet04.moveVertical(6);
+            planet04.moveHorizontal(8);
+            planet04.moveVertical(8);
             
-            planet05.moveHorizontal(5);   
-            planet05.moveVertical(5);   
+            planet05.moveHorizontal(6);   
+            planet05.moveVertical(6);   
             
-            planet06.moveHorizontal(4);   
-            planet06.moveVertical(4);   
+            planet06.moveHorizontal(5);   
+            planet06.moveVertical(5);   
             
-            planet07.moveHorizontal(3);   
-            planet07.moveVertical(3);   
+            planet07.moveHorizontal(4);   
+            planet07.moveVertical(4);   
             
             
             planet08.moveHorizontal(2);   

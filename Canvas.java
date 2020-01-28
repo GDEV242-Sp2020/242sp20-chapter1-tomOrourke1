@@ -159,7 +159,7 @@ public class Canvas
             graphic.setColor(new Color(230,68,9));
         }
         else if(colorString.equals("space")){
-            graphic.setColor(new Color(10,50,120));
+            graphic.setColor(new Color(7,13,90));
         }
         else {
             graphic.setColor(new Color(100,50,10));
