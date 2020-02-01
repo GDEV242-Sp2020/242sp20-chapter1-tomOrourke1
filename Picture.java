@@ -39,8 +39,11 @@ public class Picture
     private Circle ring03;
     private Circle ring04;
     private Circle ring05;
-    
-    
+    private Circle ring06;
+    private Circle ring07;
+    private Circle ring08;
+    private Circle ring09;
+    private Circle ring10;
     
     
     
@@ -75,7 +78,11 @@ public class Picture
         ring03 = new Circle();
         ring04 = new Circle();
         ring05 = new Circle();
-        
+        ring06 = new Circle();
+        ring07 = new Circle();
+        ring08 = new Circle();
+        ring09 = new Circle();
+        ring10 = new Circle();
         
         
     }
@@ -109,6 +116,11 @@ public class Picture
             ring03.changeColor("white");
             ring04.changeColor("white");
             ring05.changeColor("white");
+            ring06.changeColor("white");
+            ring07.changeColor("white");
+            ring08.changeColor("white");
+            ring09.changeColor("white");
+            ring10.changeColor("white");
             
             /**
              * CHANGE SIZE
@@ -132,6 +144,11 @@ public class Picture
             ring03.changeSize(10);
             ring04.changeSize(10);
             ring05.changeSize(10);
+            ring06.changeSize(10);
+            ring07.changeSize(10);
+            ring08.changeSize(10);
+            ring09.changeSize(10);
+            ring10.changeSize(10);
             
             /**
              * Move IT
@@ -172,13 +189,28 @@ public class Picture
             ring04.moveVertical(-20);
             ring05.moveHorizontal(90);
             ring05.moveVertical(18);
-            
+            ring06.moveHorizontal(0);
+            ring06.moveVertical(0);
+            ring07.moveHorizontal(0);
+            ring07.moveVertical(0);
+            ring08.moveHorizontal(0);
+            ring08.moveVertical(0);
+            ring09.moveHorizontal(0);
+            ring09.moveVertical(0);
+            ring10.moveHorizontal(0);
+            ring10.moveVertical(0);
             
             /**
              * ORDER OF VISUALS
              */
             //backvis
             backG.makeVisible();
+            //rings behind
+            ring06.makeVisible();
+            ring07.makeVisible();
+            ring08.makeVisible();
+            ring09.makeVisible();
+            ring10.makeVisible();
             //planet vis
             planet10.makeVisible();
             planet09.makeVisible();
