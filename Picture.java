@@ -42,9 +42,15 @@ public class Picture
     private Circle ring06;
     private Circle ring07;
     private Circle ring08;
+    
     private Circle ring09;
     private Circle ring10;
-    
+    private Circle ring11;
+    private Circle ring12;
+    private Circle ring13;
+    private Circle ring14;
+    private Circle ring15;
+    private Circle ring16;
     
     
     /**
@@ -81,9 +87,15 @@ public class Picture
         ring06 = new Circle();
         ring07 = new Circle();
         ring08 = new Circle();
+        
         ring09 = new Circle();
         ring10 = new Circle();
-        
+        ring11 = new Circle();
+        ring12 = new Circle();
+        ring13 = new Circle();
+        ring14 = new Circle();
+        ring15 = new Circle();
+        ring16 = new Circle();
         
     }
 
@@ -121,6 +133,13 @@ public class Picture
             ring08.changeColor("blue");
             ring09.changeColor("red");
             ring10.changeColor("black");
+            ring11.changeColor("white");
+            ring12.changeColor("white");
+            ring13.changeColor("white");
+            ring14.changeColor("white");
+            ring15.changeColor("white");
+            ring16.changeColor("white");
+            
             
             /**
              * CHANGE SIZE
@@ -147,8 +166,15 @@ public class Picture
             ring06.changeSize(10);
             ring07.changeSize(10);
             ring08.changeSize(10);
-            ring09.changeSize(10);
-            ring10.changeSize(10);
+            
+            ring09.changeSize(5);
+            ring10.changeSize(5);
+            ring11.changeSize(5);
+            ring12.changeSize(5);
+            ring13.changeSize(5);
+            ring14.changeSize(5);
+            ring15.changeSize(5);
+            ring16.changeSize(5);
             
             /**
              * Move IT
@@ -180,25 +206,40 @@ public class Picture
             // ring move
             
             ring01.moveHorizontal(-40);
-            ring01.moveVertical(100);
+            ring01.moveVertical(95);
             ring02.moveHorizontal(18);
-            ring02.moveVertical(85);
+            ring02.moveVertical(80);
             ring03.moveHorizontal(70);
-            ring03.moveVertical(70);
+            ring03.moveVertical(65);
             ring04.moveHorizontal(100);
             ring04.moveVertical(-20);
-            ring05.moveHorizontal(90);
-            ring05.moveVertical(18);
-            ring06.moveHorizontal(-25);
-            ring06.moveVertical(50);
+            ring05.moveHorizontal(87);
+            ring05.moveVertical(24);
+            ring06.moveHorizontal(-20);
+            ring06.moveVertical(43);
             ring07.moveHorizontal(50);
-            ring07.moveVertical(-13);
+            ring07.moveVertical(-12);
             ring08.moveHorizontal(0);
             ring08.moveVertical(0);
+            
             ring09.moveHorizontal(0);
             ring09.moveVertical(0);
             ring10.moveHorizontal(0);
             ring10.moveVertical(0);
+            ring10.moveHorizontal(0);
+            ring10.moveVertical(0);
+            ring10.moveHorizontal(0);
+            ring10.moveVertical(0);
+            ring10.moveHorizontal(0);
+            ring10.moveVertical(0);
+            ring10.moveHorizontal(0);
+            ring10.moveVertical(0);
+            ring10.moveHorizontal(0);
+            ring10.moveVertical(0);
+            ring10.moveHorizontal(0);
+            ring10.moveVertical(0);
+            
+            
             
             /**
              * ORDER OF VISUALS
