@@ -8,6 +8,14 @@
  * 
  * @author  Michael Kšlling and David J. Barnes
  * @version 2016.02.29
+ * 
+ * 
+ * This class now draws a planet with a square ring arround it
+ * it can become black and white as well as color using methods
+ * 
+ * @author of these changes ~ Tom O'Rourke
+ * 
+ * 
  */
 public class Picture
 {
