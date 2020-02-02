@@ -52,6 +52,8 @@ public class Picture
     private Circle ring15;
     private Circle ring16;
     
+    private Square inSquare;
+    private Triangle inTriangle;
     
     private int offsetx = -5;
     private int offsety = -5;
@@ -103,6 +105,9 @@ public class Picture
         ring14 = new Circle();
         ring15 = new Circle();
         ring16 = new Circle();
+        
+        inSquare = new Square();
+        inTriangle = new Triangle();
         
     }
 
@@ -184,6 +189,9 @@ public class Picture
             ring15.changeSize(5);
             ring16.changeSize(5);
             
+            inTriangle.changeSize(5,5);
+            inSquare.changeSize(5);
+            
             /**
              * Move IT
              */
@@ -252,7 +260,10 @@ public class Picture
             ring16.moveHorizontal(76);
             ring16.moveVertical(-14);
             
-            
+            inSquare.moveHorizontal(0);
+            inSquare.moveVertical(0);
+            inTriangle.moveHorizontal(0);
+            inTriangle.moveVertical(0);
             
             /**
              * ORDER OF VISUALS
@@ -285,6 +296,9 @@ public class Picture
             ring03.makeVisible();
             ring04.makeVisible();
             ring05.makeVisible();
+            
+            inTriangle.makeVisible();
+            inSquare.makeVisible();
             
             //small; ring
             ring11.makeVisible();
