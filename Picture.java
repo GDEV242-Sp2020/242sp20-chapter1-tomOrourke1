@@ -111,16 +111,16 @@ public class Picture
             planet09.changeColor("orange09");
             planet10.changeColor("orange10");
             //rings
-            ring01.changeColor("white");
+            ring01.changeColor("red");
             ring02.changeColor("white");
-            ring03.changeColor("white");
-            ring04.changeColor("white");
-            ring05.changeColor("white");
-            ring06.changeColor("white");
-            ring07.changeColor("white");
-            ring08.changeColor("white");
-            ring09.changeColor("white");
-            ring10.changeColor("white");
+            ring03.changeColor("green");
+            ring04.changeColor("orange");
+            ring05.changeColor("blue");
+            ring06.changeColor("yellow");
+            ring07.changeColor("green");
+            ring08.changeColor("blue");
+            ring09.changeColor("red");
+            ring10.changeColor("black");
             
             /**
              * CHANGE SIZE
@@ -182,17 +182,17 @@ public class Picture
             ring01.moveHorizontal(-40);
             ring01.moveVertical(100);
             ring02.moveHorizontal(18);
-            ring02.moveVertical(90);
+            ring02.moveVertical(85);
             ring03.moveHorizontal(70);
             ring03.moveVertical(70);
             ring04.moveHorizontal(100);
             ring04.moveVertical(-20);
             ring05.moveHorizontal(90);
             ring05.moveVertical(18);
-            ring06.moveHorizontal(0);
-            ring06.moveVertical(0);
-            ring07.moveHorizontal(0);
-            ring07.moveVertical(0);
+            ring06.moveHorizontal(-25);
+            ring06.moveVertical(50);
+            ring07.moveHorizontal(50);
+            ring07.moveVertical(-13);
             ring08.moveHorizontal(0);
             ring08.moveVertical(0);
             ring09.moveHorizontal(0);
