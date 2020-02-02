@@ -152,7 +152,7 @@ public class Picture
             ring15.changeColor("white");
             ring16.changeColor("white");
             
-            inRing.changeColor("white");
+            inRing.changeColor("blue");
             
             /**
              * CHANGE SIZE
@@ -189,8 +189,8 @@ public class Picture
             ring15.changeSize(5);
             ring16.changeSize(5);
             
-            inTriangle.changeSize(5,5);
-            inSquare.changeSize(5);
+            inTriangle.changeSize(10,10);
+            inSquare.changeSize(10);
             
             /**
              * Move IT
@@ -260,10 +260,10 @@ public class Picture
             ring16.moveHorizontal(76);
             ring16.moveVertical(-14);
             
-            inSquare.moveHorizontal(0);
-            inSquare.moveVertical(0);
-            inTriangle.moveHorizontal(0);
-            inTriangle.moveVertical(0);
+            inSquare.moveHorizontal(7);
+            inSquare.moveVertical(-5);
+            inTriangle.moveHorizontal(6);
+            inTriangle.moveVertical(-5);
             
             /**
              * ORDER OF VISUALS
@@ -271,7 +271,7 @@ public class Picture
             //backvis
             backG.makeVisible();
             //rings behind
-            ring06.makeVisible();
+            //ring06.makeVisible();
             ring07.makeVisible();
             ring08.makeVisible();
             ring09.makeVisible();
@@ -295,7 +295,7 @@ public class Picture
             ring02.makeVisible();
             ring03.makeVisible();
             ring04.makeVisible();
-            ring05.makeVisible();
+            //ring05.makeVisible();
             
             inTriangle.makeVisible();
             inSquare.makeVisible();
@@ -348,6 +348,8 @@ public class Picture
             //ring15.changeColor("black");
             inRing.changeColor("black");
             ring16.changeColor("black");
+            inSquare.changeColor("white");
+            inTriangle.changeColor("black");
     }
 
     /**
@@ -359,10 +361,11 @@ public class Picture
             backG.changeColor("space");
             //rings back
             //ring15.changeColor("white");
-            inRing.changeColor("white");
+            inRing.changeColor("blue");
             ring06.changeColor("white");
             ring07.changeColor("white");
             ring08.changeColor("white");
+            inTriangle.changeColor("green");
             
             //planet
             planet10.changeColor("orange10");
@@ -382,7 +385,7 @@ public class Picture
             ring04.changeColor("white");
             ring05.changeColor("white");
             
-            
+            inSquare.changeColor("red");
             
             ring09.changeColor("white");
             ring10.changeColor("white");
