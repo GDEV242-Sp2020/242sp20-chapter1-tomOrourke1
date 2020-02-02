@@ -297,10 +297,36 @@ public class Picture
      */
     public void setBlackAndWhite()
     {
-        wall.changeColor("black");
-        window.changeColor("white");
-        roof.changeColor("black");
-        sun.changeColor("black");
+        //space
+            backG.changeColor("white");
+            //planet
+            planet01.changeColor("black");
+            planet02.changeColor("black");
+            planet03.changeColor("black");
+            planet04.changeColor("black");
+            planet05.changeColor("black");
+            planet06.changeColor("black");
+            planet07.changeColor("black");
+            planet08.changeColor("black");
+            planet09.changeColor("black");
+            planet10.changeColor("black");
+            //rings
+            ring01.changeColor("black");
+            ring02.changeColor("white");
+            ring03.changeColor("white");
+            ring04.changeColor("black");
+            ring05.changeColor("white");
+            ring06.changeColor("black");
+            ring07.changeColor("black");
+            ring08.changeColor("black");
+            ring09.changeColor("black");
+            ring10.changeColor("black");
+            ring11.changeColor("black");
+            ring12.changeColor("white");
+            ring13.changeColor("white");
+            ring14.changeColor("black");
+            ring15.changeColor("black");
+            ring16.changeColor("black");
     }
 
     /**
@@ -308,9 +334,41 @@ public class Picture
      */
     public void setColor()
     {
-        wall.changeColor("red");
-        window.changeColor("black");
-        roof.changeColor("green");
-        sun.changeColor("yellow");
+        //space
+            backG.changeColor("space");
+            //rings back
+            ring15.changeColor("white");
+            ring06.changeColor("white");
+            ring07.changeColor("white");
+            ring08.changeColor("white");
+            
+            //planet
+            planet10.changeColor("orange10");
+            planet09.changeColor("orange09");
+            planet08.changeColor("orange08");
+            planet07.changeColor("orange07");
+            planet06.changeColor("orange06");
+            planet05.changeColor("orange05");
+            planet04.changeColor("orange04");
+            planet03.changeColor("orange03");
+            planet02.changeColor("orange02");
+            planet01.changeColor("orange01");
+            //rings
+            ring01.changeColor("white");
+            ring02.changeColor("white");
+            ring03.changeColor("white");
+            ring04.changeColor("white");
+            ring05.changeColor("white");
+            
+            
+            
+            ring09.changeColor("white");
+            ring10.changeColor("white");
+            ring11.changeColor("white");
+            ring12.changeColor("white");
+            ring13.changeColor("white");
+            ring14.changeColor("white");
+            
+            ring16.changeColor("white");
     }
 }
