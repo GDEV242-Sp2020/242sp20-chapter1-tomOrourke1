@@ -260,10 +260,10 @@ public class Picture
             ring16.moveHorizontal(76);
             ring16.moveVertical(-14);
             
-            inSquare.moveHorizontal(7);
-            inSquare.moveVertical(-5);
-            inTriangle.moveHorizontal(6);
-            inTriangle.moveVertical(-5);
+            inSquare.moveHorizontal(9);
+            inSquare.moveVertical(-7);
+            inTriangle.moveHorizontal(4);
+            inTriangle.moveVertical(-6);
             
             /**
              * ORDER OF VISUALS
