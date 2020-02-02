@@ -53,6 +53,12 @@ public class Picture
     private Circle ring16;
     
     
+    private int offsetx = -5;
+    private int offsety = -5;
+    
+    
+    
+    
     /**
      * Constructor for objects of class Picture
      */
@@ -180,28 +186,28 @@ public class Picture
              * Move IT
              */
             //planet movement
-            backG.moveHorizontal(-310);
-            backG.moveVertical(-190);
-            planet01.moveHorizontal(15);
-            planet01.moveVertical(15);
-            planet02.moveHorizontal(12);
-            planet02.moveVertical(12);
-            planet03.moveHorizontal(10);
-            planet03.moveVertical(10);
-            planet04.moveHorizontal(9);
-            planet04.moveVertical(9);
-            planet05.moveHorizontal(7);   
-            planet05.moveVertical(7);  
-            planet06.moveHorizontal(5);   
-            planet06.moveVertical(5);   
-            planet07.moveHorizontal(4);   
-            planet07.moveVertical(4);  
-            planet08.moveHorizontal(2);   
-            planet08.moveVertical(2);   
-            planet09.moveHorizontal(1);   
-            planet09.moveVertical(1);   
-            planet10.moveHorizontal(0);   
-            planet10.moveVertical(0);   
+            backG.moveHorizontal(-310 + offsetx);
+            backG.moveVertical(-190 + offsety);
+            planet01.moveHorizontal(15 + offsetx);
+            planet01.moveVertical(15 + offsety);
+            planet02.moveHorizontal(12 + offsetx);
+            planet02.moveVertical(12 + offsety);
+            planet03.moveHorizontal(10 + offsetx);
+            planet03.moveVertical(10 + offsety);
+            planet04.moveHorizontal(9 + offsetx);
+            planet04.moveVertical(9 + offsety);
+            planet05.moveHorizontal(7 + offsetx);   
+            planet05.moveVertical(7 + offsety);  
+            planet06.moveHorizontal(5 + offsetx);   
+            planet06.moveVertical(5 + offsety);   
+            planet07.moveHorizontal(4 + offsetx);   
+            planet07.moveVertical(4 + offsety);  
+            planet08.moveHorizontal(2 + offsetx);   
+            planet08.moveVertical(2 + offsety);   
+            planet09.moveHorizontal(1 + offsetx);   
+            planet09.moveVertical(1 + offsety);   
+            planet10.moveHorizontal(0 + offsetx);   
+            planet10.moveVertical(0 + offsety);   
             
             // ring move
             
@@ -211,12 +217,10 @@ public class Picture
             ring02.moveVertical(80);
             ring03.moveHorizontal(70);
             ring03.moveVertical(65);
-            
             ring04.moveHorizontal(100);
             ring04.moveVertical(-20);
             ring05.moveHorizontal(87);
             ring05.moveVertical(24);
-            
             ring06.moveHorizontal(-20);
             ring06.moveVertical(43);
             ring07.moveHorizontal(50);
@@ -228,6 +232,7 @@ public class Picture
             ring09.moveVertical(72);
             ring10.moveHorizontal(-10);
             ring10.moveVertical(24);
+            
             ring11.moveHorizontal(-10);
             ring11.moveVertical(90);
             ring12.moveHorizontal(49);
@@ -236,6 +241,7 @@ public class Picture
             ring13.moveVertical(47);
             ring14.moveHorizontal(96);
             ring14.moveVertical(4);
+            
             ring15.moveHorizontal(25);
             ring15.moveVertical(-4);
             ring16.moveHorizontal(76);
@@ -254,6 +260,8 @@ public class Picture
             ring08.makeVisible();
             ring09.makeVisible();
             ring10.makeVisible();
+            ring15.makeVisible();
+            ring16.makeVisible();
             //planet vis
             planet10.makeVisible();
             planet09.makeVisible();
@@ -277,8 +285,6 @@ public class Picture
             ring12.makeVisible();
             ring13.makeVisible();
             ring14.makeVisible();
-            ring15.makeVisible();
-            ring16.makeVisible();
             /**
              *  DRAW BOOLEAN
              */
