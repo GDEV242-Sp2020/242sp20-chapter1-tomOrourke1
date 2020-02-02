@@ -123,16 +123,16 @@ public class Picture
             planet09.changeColor("orange09");
             planet10.changeColor("orange10");
             //rings
-            ring01.changeColor("red");
+            ring01.changeColor("white");
             ring02.changeColor("white");
-            ring03.changeColor("green");
-            ring04.changeColor("orange");
-            ring05.changeColor("blue");
-            ring06.changeColor("yellow");
-            ring07.changeColor("green");
-            ring08.changeColor("blue");
-            ring09.changeColor("red");
-            ring10.changeColor("black");
+            ring03.changeColor("white");
+            ring04.changeColor("white");
+            ring05.changeColor("white");
+            ring06.changeColor("white");
+            ring07.changeColor("white");
+            ring08.changeColor("white");
+            ring09.changeColor("white");
+            ring10.changeColor("white");
             ring11.changeColor("white");
             ring12.changeColor("white");
             ring13.changeColor("white");
@@ -209,7 +209,6 @@ public class Picture
             ring01.moveVertical(95);
             ring02.moveHorizontal(18);
             ring02.moveVertical(80);
-            
             ring03.moveHorizontal(70);
             ring03.moveVertical(65);
             
@@ -233,14 +232,14 @@ public class Picture
             ring11.moveVertical(90);
             ring12.moveHorizontal(49);
             ring12.moveVertical(75);
-            ring13.moveHorizontal(0);
-            ring13.moveVertical(0);
-            ring14.moveHorizontal(0);
-            ring14.moveVertical(0);
-            ring15.moveHorizontal(0);
-            ring15.moveVertical(0);
-            ring16.moveHorizontal(0);
-            ring16.moveVertical(0);
+            ring13.moveHorizontal(83);
+            ring13.moveVertical(47);
+            ring14.moveHorizontal(96);
+            ring14.moveVertical(4);
+            ring15.moveHorizontal(25);
+            ring15.moveVertical(-4);
+            ring16.moveHorizontal(76);
+            ring16.moveVertical(-14);
             
             
             
