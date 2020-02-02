@@ -209,12 +209,15 @@ public class Picture
             ring01.moveVertical(95);
             ring02.moveHorizontal(18);
             ring02.moveVertical(80);
+            
             ring03.moveHorizontal(70);
             ring03.moveVertical(65);
+            
             ring04.moveHorizontal(100);
             ring04.moveVertical(-20);
             ring05.moveHorizontal(87);
             ring05.moveVertical(24);
+            
             ring06.moveHorizontal(-20);
             ring06.moveVertical(43);
             ring07.moveHorizontal(50);
@@ -222,14 +225,14 @@ public class Picture
             ring08.moveHorizontal(0);
             ring08.moveVertical(0);
             
-            ring09.moveHorizontal(0);
-            ring09.moveVertical(0);
-            ring10.moveHorizontal(0);
-            ring10.moveVertical(0);
-            ring11.moveHorizontal(0);
-            ring11.moveVertical(0);
-            ring12.moveHorizontal(0);
-            ring12.moveVertical(0);
+            ring09.moveHorizontal(-30);
+            ring09.moveVertical(72);
+            ring10.moveHorizontal(-10);
+            ring10.moveVertical(24);
+            ring11.moveHorizontal(-10);
+            ring11.moveVertical(90);
+            ring12.moveHorizontal(49);
+            ring12.moveVertical(75);
             ring13.moveHorizontal(0);
             ring13.moveVertical(0);
             ring14.moveHorizontal(0);
@@ -270,6 +273,13 @@ public class Picture
             ring04.makeVisible();
             ring05.makeVisible();
             
+            //small; ring
+            ring11.makeVisible();
+            ring12.makeVisible();
+            ring13.makeVisible();
+            ring14.makeVisible();
+            ring15.makeVisible();
+            ring16.makeVisible();
             /**
              *  DRAW BOOLEAN
              */
