@@ -226,18 +226,18 @@ public class Picture
             ring09.moveVertical(0);
             ring10.moveHorizontal(0);
             ring10.moveVertical(0);
-            ring10.moveHorizontal(0);
-            ring10.moveVertical(0);
-            ring10.moveHorizontal(0);
-            ring10.moveVertical(0);
-            ring10.moveHorizontal(0);
-            ring10.moveVertical(0);
-            ring10.moveHorizontal(0);
-            ring10.moveVertical(0);
-            ring10.moveHorizontal(0);
-            ring10.moveVertical(0);
-            ring10.moveHorizontal(0);
-            ring10.moveVertical(0);
+            ring11.moveHorizontal(0);
+            ring11.moveVertical(0);
+            ring12.moveHorizontal(0);
+            ring12.moveVertical(0);
+            ring13.moveHorizontal(0);
+            ring13.moveVertical(0);
+            ring14.moveHorizontal(0);
+            ring14.moveVertical(0);
+            ring15.moveHorizontal(0);
+            ring15.moveVertical(0);
+            ring16.moveHorizontal(0);
+            ring16.moveVertical(0);
             
             
             
