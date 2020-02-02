@@ -31,7 +31,7 @@ public class Picture
     private Circle planet09;
     private Circle planet10;
     
-    
+    private Person inRing;
     
     
     private Circle ring01;
@@ -84,6 +84,7 @@ public class Picture
         planet09 = new Circle();
         planet10 = new Circle();
         
+        inRing = new Person();
         
         ring01 = new Circle();
         ring02 = new Circle();
@@ -146,6 +147,7 @@ public class Picture
             ring15.changeColor("white");
             ring16.changeColor("white");
             
+            inRing.changeColor("white");
             
             /**
              * CHANGE SIZE
@@ -242,6 +244,9 @@ public class Picture
             ring14.moveHorizontal(96);
             ring14.moveVertical(4);
             
+            inRing.moveHorizontal(-21);
+            inRing.moveVertical(-102);
+            
             ring15.moveHorizontal(25);
             ring15.moveVertical(-4);
             ring16.moveHorizontal(76);
@@ -260,8 +265,9 @@ public class Picture
             ring08.makeVisible();
             ring09.makeVisible();
             ring10.makeVisible();
-            ring15.makeVisible();
+            //ring15.makeVisible();
             ring16.makeVisible();
+            inRing.makeVisible();
             //planet vis
             planet10.makeVisible();
             planet09.makeVisible();
@@ -325,7 +331,8 @@ public class Picture
             ring12.changeColor("white");
             ring13.changeColor("white");
             ring14.changeColor("black");
-            ring15.changeColor("black");
+            //ring15.changeColor("black");
+            inRing.changeColor("black");
             ring16.changeColor("black");
     }
 
@@ -337,7 +344,8 @@ public class Picture
         //space
             backG.changeColor("space");
             //rings back
-            ring15.changeColor("white");
+            //ring15.changeColor("white");
+            inRing.changeColor("white");
             ring06.changeColor("white");
             ring07.changeColor("white");
             ring08.changeColor("white");
