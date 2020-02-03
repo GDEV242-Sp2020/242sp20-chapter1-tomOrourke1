@@ -102,11 +102,12 @@ public class CopyOfPicture
         
         
         person.changeColor("black");
-        person.moveHorizontal(100);
-        person.moveVertical(-40);
-        person.changeSize(40, 20);
+        person.moveHorizontal(200);
+        person.moveVertical(0);
+        person.changeSize(100, 50);
         person.makeVisible();
         
+        person.slowMoveHorizontal(-220);
         
     }    
     
