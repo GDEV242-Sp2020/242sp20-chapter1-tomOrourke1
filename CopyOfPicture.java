@@ -25,6 +25,9 @@ public class CopyOfPicture
     private Circle sun;
     private boolean drawn;
     
+    private Circle sun2;
+    
+    private Person person;
     
     
     /**
@@ -37,7 +40,8 @@ public class CopyOfPicture
         roof = new Triangle();  
         sun = new Circle();
         drawn = false;
-        
+        sun2 = new Circle();
+        person = new Person();
     }
 
     /**
@@ -66,15 +70,47 @@ public class CopyOfPicture
             roof.moveVertical(-60);
             roof.makeVisible();
     
-            sun.changeColor("yellow");
+            sun.changeColor("blue");
             sun.moveHorizontal(100);
             sun.moveVertical(-40);
             sun.changeSize(80);
             sun.makeVisible();
+            
+            
+            
+            
+            sun2.changeColor("yellow");
+            sun2.moveHorizontal(100);
+            sun2.moveVertical(-40);
+            sun2.changeSize(40);
+            sun2.makeVisible();
+            
+            
+            
             drawn = true;
         }
     }
-
+    /**
+     * sun sets
+     */
+    public void sunSet()
+    {
+        sun.slowMoveHorizontal(0);
+        sun.slowMoveVertical(500);
+        sun2.slowMoveHorizontal(-500);
+        sun2.slowMoveVertical(0);
+        
+        
+        person.changeColor("black");
+        person.moveHorizontal(100);
+        person.moveVertical(-40);
+        person.changeSize(40, 20);
+        person.makeVisible();
+        
+        
+    }    
+    
+    
     /**
      * Change this picture to black/white display
      */
